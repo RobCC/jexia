@@ -6,12 +6,14 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.3",
     "@testing-library/user-event": "^7.1.2",
+    "cross-env": "^6.0.3",
+    "jexia-sdk-js": "^4.2.4",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-scripts": "3.3.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "cross-env PROJECTID=2a2260ad-ab6a-41ab-969d-bb0c55c2a0fa APIKEY=882ad4c3-be01-46c4-a872-7d24e57de0da SECRET=DXYIVHJq2Ha2jxJqLwSTuUYrRll0qIRQ1BtujJUudXuSnIEhikg/geNp7i/HhQIFYlQkWhp9Z8TEpflQINTdKw== react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

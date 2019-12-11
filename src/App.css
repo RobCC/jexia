@@ -36,3 +36,43 @@
     transform: rotate(360deg);
   }
 }
+
+.movies {
+  font-size: 18px;
+}
+
+.operations {
+  display: flex;
+}
+
+.op-block {
+  border: 1px solid white;
+  display: flex;
+  padding: 0 20px;
+  margin: 30px;
+  border-radius: 5px;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+span {
+  font-size: 15px;
+  margin: 10px 0;
+}
+
+input {
+  display: block;
+  margin: 10px 0;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 0;
+  padding: 2px 5px;
+}
+
+input[type="button"] {
+  cursor: pointer;
+  font-size: 15px;
+  margin: 10px auto;
+  width: 100px;
+}
